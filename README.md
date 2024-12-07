@@ -13,6 +13,7 @@ This project creates a Streamlit app that generates a detailed image prompt from
   - [Test Groq API](#test-groq-api)
   - [Test Groq with Langchain](#test-groq-with-langchain)
 - [Example Generated Images](#example-generated-images)
+- [Useful links](#useful_links)
 - [Troubleshooting](#troubleshooting)
 
 ## File Structure
@@ -130,6 +131,20 @@ These test scripts are designed to validate the core functionalities of generati
 ## Example Generated Images
 Below are some of the images generated using the Streamlit app and the Together API: 
 ### Image 1: fasion photo of a woman in a resort ![fasion photo](images/generated_image_1733525812.png)
+
+## Useful Links
+
+Here are some useful links that you can refer to for further information:
+
+- [FLUX Prompt Generator](https://huggingface.co/spaces/gokaygokay/FLUX-Prompt-Generator)
+- [FLUX Image Generator](https://api.together.ai/playground/image/black-forest-labs/FLUX.1.1-pro)
+- [uv Documentation](https://docs.astral.sh/uv/)
+- [Streamlit Documentation]([https://docs.streamlit.io/develop/api.html](https://docs.streamlit.io/develop/api-reference))
+- [Together AI Documentation](https://docs.together.ai/docs/quickstart)
+- [Groq Documentation](https://console.groq.com/docs/text-chat)
+- [Groq API in LangChain](https://python.langchain.com/docs/integrations/chat/groq/)
+- [LangChain Prompt Templates](https://python.langchain.com/docs/concepts/prompt_templates/)
+
 
 ## Troubleshooting
 
