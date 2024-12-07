@@ -12,6 +12,7 @@ This project creates a Streamlit app that generates a detailed image prompt from
   - [Test Together API](#test-together-api)
   - [Test Groq API](#test-groq-api)
   - [Test Groq with Langchain](#test-groq-with-langchain)
+- [Example Generated Images](#example-generated-images)
 - [Troubleshooting](#troubleshooting)
 
 ## File Structure
@@ -63,7 +64,8 @@ pip install streamlit together langchain_groq langchain_core python-dotenv
 Create a `.env` file in the root directory and add your Together API key:
 
 ```
-TOGETHER_API_KEY=your_api_key_here
+TOGETHER_API_KEY = your_api_key_here
+GROQ_API_KEY = your_api_key_here
 ```
 
 Replace `your_api_key_here` with your actual Together API key.
@@ -124,6 +126,10 @@ The `test/test_groq_langchain.py` script uses Groq with Langchain to generate a 
 ---
 
 These test scripts are designed to validate the core functionalities of generating images and interacting with the Groq API. Make sure you have the required environment variables set up in the `.env` file and that you activate your virtual environment before running the scripts.
+
+## Example Generated Images
+Below are some of the images generated using the Streamlit app and the Together API: 
+### Image 1: fasion photo of a woman in a resort ![fasion photo](images/generated_image_1733525812.png)
 
 ## Troubleshooting
 
